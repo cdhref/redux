@@ -1,3 +1,6 @@
+# redux 설치
+npm i --save redux
+
 # redux 개요
 
 ## render
@@ -9,3 +12,4 @@ subscribe를 통해 등록가능
 ## state수정
 action발생 > dispatch > reducer가 state를 변경 > 변경 된 state를 subscribe >
 render호출 > getState함수 호출 > state참조 > rendering
+
