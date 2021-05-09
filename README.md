@@ -9,12 +9,22 @@ https://github.com/reduxjs/redux-devtools
 # redux 개요
 
 ## render
-state값이 변경 된 경우에만 rendering
+state값이 변경 된 경우에 subscribe에 등록 된 함수를 호출하여 화면 rendering 처리
 
 ## state변경 시 자동으로 화면갱신
 subscribe를 통해 등록가능
+    function reducer(state, action){
+        var newState = [];
+        ................
+        return newState;
+    }
+    var store = createStore(
+        reducer
+        //chrome redux 개발자 툴
+        ,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    );
+    store.subscribe('function name');
 
-## state수정
-action발생 > dispatch > reducer가 state를 변경 > 변경 된 state를 subscribe >
-render호출 > getState함수 호출 > state참조 > rendering
+## state 변경 시의 처리 순서
+action발생 > dispatch > reducer가 state를 변경 > state 변경callback 함수를 subscribe > callback 내부에서 getState함수 호출 > 변경 된 state참조 > rendering
 
