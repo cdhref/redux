@@ -1,6 +1,11 @@
 # redux 설치
 npm i --save redux
 
+# dev-tools
+크롬 웹 확장 기능에서 없어진 후 github의 내용을 보고 설치하는 방법으로 사용 가능.
+다음 링크 참조
+https://github.com/reduxjs/redux-devtools
+
 # redux 개요
 
 ## render
