@@ -13,6 +13,7 @@ state값이 변경 된 경우에 subscribe에 등록 된 함수를 호출하여 
 
 ## state변경 시 자동으로 화면갱신
 subscribe를 통해 등록가능
+
     function reducer(state, action){
         var newState = [];
         ................
