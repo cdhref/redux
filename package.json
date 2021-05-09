@@ -1,0 +1,29 @@
+{
+  "name": "redux-study",
+  "version": "1.0.0",
+  "description": "getState함수 호출 > state참조 > rendering",
+  "main": "index.js",
+  "dependencies": {
+    "redux": "^4.1.0"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "react-refresh": "^0.10.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "dev": "webpack serve --env development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdhref/redux.git"
+  },
+  "author": "dev_choi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdhref/redux/issues"
+  },
+  "homepage": "https://github.com/cdhref/redux#readme"
+}

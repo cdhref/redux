@@ -1,0 +1,17 @@
+.btn-navy{
+    background-color: #4b61a0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 3px 7px;
+}
+
+.btn-remove{
+    background-color: #bd3726;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px 0 130px;
+    padding: 3px 7px;
+}
