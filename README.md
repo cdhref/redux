@@ -9,6 +9,10 @@ npm run dev
 다음 링크 참조
 https://github.com/reduxjs/redux-devtools
 
+2021-07-10
+현 시점 크롬 확장 기능에 다시 추가 됨을 확인. 다음 링크에서 설치 가능.
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
+
 # redux 개요
 
 ## render
